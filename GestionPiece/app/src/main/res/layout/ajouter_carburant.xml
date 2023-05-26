@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="25dp"
+    android:gravity="center"
+    android:layout_margin="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/shape_background"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter informations carburants"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:background="@drawable/shape_background"
+            android:backgroundTint="#cbe2fe"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:autoSizeMaxTextSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/code_barre_carburant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Code barre:"
+            android:background="@drawable/shape_background"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="25sp"
+            android:paddingStart="30dp"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/designation_carburant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:hint="Designation:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:paddingStart="30dp"
+            android:inputType="text"
+
+            />
+        <EditText
+            android:id="@+id/prix_achat_carburant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Prix achat:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="25sp"
+            android:background="@drawable/shape_background"
+            android:paddingStart="30dp"
+            android:inputType="numberDecimal"
+
+            />
+        <EditText
+            android:id="@+id/date_achat_carburant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:hint="Date achat:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:paddingStart="30dp"
+            android:inputType="datetime"
+
+
+            />
+        <EditText
+            android:id="@+id/type_carburant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:hint="Type:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:paddingStart="30dp"
+            android:inputType="text"
+
+            />
+        <EditText
+            android:id="@+id/prix_vente_carburant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:hint="Prix vente:"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:paddingStart="30dp"
+
+            />
+        <EditText
+            android:id="@+id/quantite_carburant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:hint="Qunatité:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:paddingStart="30dp"
+            android:inputType="number"
+
+            />
+        <EditText
+            android:id="@+id/fornisseur_carburant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:hint="Fornisseur:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:paddingStart="30dp"
+            android:inputType="text"
+
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_ajouter_carburant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:textSize="22sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#cbe2fe"
+            android:layout_gravity="center"
+            app:cornerRadius="50dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

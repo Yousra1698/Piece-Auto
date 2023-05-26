@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingPrefix"
+    android:scrollbars="vertical">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="@drawable/shape_background"
+            android:paddingBottom="15dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ajouter informations croix"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:background="#cbe2fe"
+                android:elevation="15dp"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:autoSizeMaxTextSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+
+                />
+            <EditText
+                android:id="@+id/nov_type_croix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type :"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_background"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="30dp"
+                android:inputType="text"
+                />
+            <EditText
+                android:id="@+id/nov_prix_achat_croix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Prix d'achat :"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_background"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="30dp"
+                android:inputType="numberDecimal"
+
+                />
+            <EditText
+                android:id="@+id/nov_prix_vente_croix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Prix de vente :"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_background"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="30dp"
+                android:inputType="numberDecimal"
+
+                />
+            <EditText
+                android:id="@+id/nov_date_achat_croix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date d'achat :"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_background"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="30dp"
+                android:inputType="datetime"
+
+
+                />
+            <EditText
+                android:id="@+id/nov_code_barre_croix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Code barre :"
+                android:textSize="25sp"
+
+                android:textColor="@color/black"
+                android:background="@drawable/shape_background"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="30dp"
+                android:inputType="number"
+
+                />
+            <EditText
+                android:id="@+id/nov_voiture_croix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Voiture de croix :"
+                android:textSize="25sp"
+
+                android:textColor="@color/black"
+                android:background="@drawable/shape_background"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="30dp"
+                />
+
+            <EditText
+                android:id="@+id/nov_quantite_croix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Quantié de croix :"
+                android:textSize="25sp"
+
+                android:textColor="@color/black"
+                android:background="@drawable/shape_background"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="30dp"
+                android:inputType="number"
+
+                />
+            <EditText
+                android:id="@+id/nov_fornisseur_croix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fornisseur :"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_background"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="30dp"
+                android:inputType="text"
+
+                />
+            <Button
+                android:id="@+id/button_modifier_croix"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Modifier"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:backgroundTint="#cbe2fe"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

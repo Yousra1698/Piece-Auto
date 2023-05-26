@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="15dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/shape_background"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modifier informations huiles"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="#cbe2fe"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:autoSizeMaxTextSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/nov_marque_huile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marque:"
+            android:background="@drawable/shape_background"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:padding="15dp"
+            android:inputType="text"
+            />
+        <EditText
+            android:id="@+id/nov_type_huile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:inputType="text"
+
+            />
+        <EditText
+            android:id="@+id/nov_prix_achat_huile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prix achat:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:inputType="numberDecimal"
+
+            />
+        <EditText
+            android:id="@+id/nov_date_achat_huile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date achat:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:inputType="datetime"
+
+
+            />
+        <EditText
+            android:id="@+id/nov_code_barre_huile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Code barre:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:inputType="number"
+
+            />
+        <EditText
+            android:id="@+id/nov_prix_vente_huile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prix vente:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:inputType="numberDecimal"
+            />
+        <EditText
+            android:id="@+id/nov_quantite_huile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Qunatité:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:inputType="number"
+
+            />
+        <EditText
+            android:id="@+id/nov_fornisseur_huile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fornisseur:"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:inputType="text"
+
+            />
+        <Button
+            android:id="@+id/button_modifier_huile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modifier"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#cbe2fe"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

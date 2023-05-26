@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GestionPieceAuto"
+        tools:targetApi="31">
+        <activity
+            android:name=".Vents.GestionVent"
+            android:exported="false" />
+        <activity
+            android:name=".Achats.GestionAchats"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityStockCroix"
+            android:exported="false" />
+        <activity
+            android:name=".Fournisseur.GestionFournisseur"
+            android:exported="false" />
+        <activity
+            android:name=".Produit.GestionCroix"
+            android:exported="false" />
+        <activity
+            android:name=".Produit.GestionHuile"
+            android:exported="false" />
+        <activity
+            android:name=".Client.GestionClient"
+            android:exported="false" />
+        <activity
+            android:name=".Stock.GestionStock"
+            android:exported="false" />
+        <activity
+            android:name=".GestionCarburant"
+            android:exported="false" />
+        <activity
+            android:name=".Produit.GestionProduit"
+            android:exported="false" />
+        <activity
+            android:name=".Produit.GestionPiece"
+            android:exported="false" />
+        <activity
+            android:name=".Login.Inscription"
+            android:exported="false" />
+        <activity
+            android:name=".Login.SeConnecter"
+            android:exported="false" />
+        <activity
+            android:name=".Vents.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
